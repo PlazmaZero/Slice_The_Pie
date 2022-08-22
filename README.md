@@ -1,5 +1,5 @@
 # Name
-Rebekah Grace
+Howard Wang and Rebekah Grace
 
 # Purpose
  University of California - Davis' Manetti Shrem Museum was hosting an exhibit "Education should be Free" that focused on the pros and cons of free education. They wanted an interactive app that could be used by museum goers and held a competition within the ECS 162: Web Development class. The app was hosted on their website for the Spring 2021 Quarter. It's purpose was to give people insight into the UC system budget.
