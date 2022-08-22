@@ -1,0 +1,234 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Tooltip (the information icon) */
+._2JvrO {
+  z-index: 1;
+  background-color: #387cf6 !important;
+  color: #387cf6 !important;
+}
+
+._2JvrO > svg {
+  z-index: 1;
+  background-color: #387cf6 !important;
+  color: #387cf6 !important;
+  display: none;
+}
+
+._2ZUAI::before {
+    
+    background: #387cf6 !important;
+    transition: background-position 200ms ease-in-out;
+    
+}
+
+._35Ago::before {
+  background: #387cf6 !important;
+}
+
+._2Jtxm._2ZUAI ._2JvrO {
+  background-color: #387cf6 !important;
+  color: #387cf6 !important;
+}
+
+._2Jtxm._2ZUAI ._2JvrO {
+  background-color: #387cf6 !important;
+}
+
+/* Progress Bar */
+.progress-step.completed .step-icon:hover .progress-step.current .progress-step, .step-index,
+.progress-step .step-icon{
+  display: none;
+  background-color: #387cf6 !important;
+}
+
+._53Ji7 {
+  padding: 0px !important;
+}
+
+._2_g61 {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+
+/* Input fields */
+.InputRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Inputtext {
+  font-family: sans-serif;
+  font-size: 15px;
+  align-items: center;
+}
+.textField {
+  align-self: flex-end !important;
+}
+
+.leftItems {
+  display: flex;
+  align-items: center;
+}
+
+
+#root {
+  display: flex;
+  align-self: center !important;
+}
+
+.inputPropClass {
+  color: white !important;
+  text-align: center !important;
+  
+}
+
+p.MuiTypography-root.MuiTypography-body1.MuiTypography-colorTextSecondary {
+    color: white;
+}
+
+
+
+.MuiInput-underline:after {
+  border-bottom: 2px solid #3f51b5 !important;
+}
+
+.MuiInput-underline:before {
+  border-bottom: 2px solid white !important;
+}
+
+input.MuiInputBase-input.MuiInput-input {
+    text-align: center;
+    color: white;
+}
+
+
+.iconButton {
+  background:transparent;
+  border: none;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+revenueWord{
+  padding-left: 2px;
+}
+
+
+.progressbar li:first-child:after{
+  content: none;
+}
+
+
+.container{
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto !important;
+  padding-top: 15px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0 auto !important;
+  padding: 0px;
+  width: 100%;
+}
+
+.progressbar li{
+  float: left;
+  width: 33.33%;
+  position: relative;
+  text-align: center;
+  list-style-type: none;
+  counter-reset: step;
+}
+
+.progressbar ul{
+  direction: ltr;
+}
+.progressbar{
+  margin:0 auto important!;
+  counter-reset: step;
+}
+.progressbar li:before{
+  content: counter(step);
+  counter-increment: step;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border: 0px;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  background-color: #7F8178;
+  color: #7F8178
+}
+.progressbar li:after{
+  content: '';
+  position: absolute;
+  width:100%;
+  height: 4px;
+  background: #7F8178;
+  top: 10.5px;
+  left: -50%;
+  z-index: -1;
+}
+
+.progressbar li.active:before {
+  background: #71A8FF;
+  color: #71A8FF;
+  
+}
+
+li#bar1Item1:after{
+  background-color: #71A8FF !important;
+  color: #71A8FF !important; 
+  background: #71A8FF !important;
+
+}
+#bar2Item2:after{
+  background-color: #71A8FF;
+  color:#71A8FF;
+  
+  background: #71A8FF;
+  
+}
+
+#bar3Item3:after{
+  background-color: #71A8FF;
+  color:#71A8FF;
+}
+
+#bar3Item2:after{
+  background-color: #71A8FF;
+  color:#71A8FF;
+}
+
+.coloredBlue{
+  color: #71A8FF;
+  font-weight: 600;
+}
+
+.coloredWhite{
+  color: white;
+  font-weight: 600;
+}
